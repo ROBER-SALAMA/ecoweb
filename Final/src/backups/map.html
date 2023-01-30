@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <head>
+    <title>ubicacion de EcoBot</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/map.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+        <h1>
+            ubicacion de ecobot
+        </h1>
+
+        <button id="retur-home">home</button>
+    </nav>
+  </header>
+  <body>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5055.572664076296!2d-89.71757791042117!3d13.
+        731788539711335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62b81f06dddfe1%3A0x46f4d7907d01c68f!
+        2sInstituto%20Nacional%20de%20Sonzacate%20(INSO)!5e0!3m2!1ses!2ssv!4v1664835432769!5m2!1ses!2ssv" 
+        width="1360" height="580" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+
+    
+    <script src="../routers/rmap.js"></script>
+
+  </body>
+</html>

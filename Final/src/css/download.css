@@ -1,0 +1,53 @@
+.img-qr{
+  position: absolute;
+  bottom: -10px;
+  right: -20px;
+  transform: translate(-50%,-50% );
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(27, 99, 9);
+  border-radius: 6%;
+  scale: 1.2;
+  /*
+  clip-path: inset(9 9.5% 9);
+  */
+}
+
+.qr-h1 {
+    color: rgb(19, 114, 23);
+    position: absolute;
+    right: 132px;
+    top: 20px;
+}
+
+button {
+    position: absolute;
+    color: rgb(252, 252, 252);
+    background-color: rgb(39, 109, 6);
+    /*
+    right: 15.6%;
+    bottom: 10%;
+    */
+    right: 275px;
+    bottom: 65px;
+    transform: scale(2,2);
+}
+
+.qr-h2 {
+    color: rgb(27, 99, 9);
+    position: absolute;
+    top: 18%;
+    right: 10.6%;
+}
+
+/* imagen de descarga */
+
+.img-download {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+body {
+    background-color: rgb(135, 211, 120);
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eco-wallet-6ecf7",
+  "private_key_id": "e20dea5cd0c38fb9e0652a3183f59017e47c4478",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIXxO96fxxYImu\n9veKY1dIp0VDJC0AwzWDZ2EcND/mvr+RHinR8ntF6/CcejwLjJdfo6FVeZzbII4B\n/GxLyQvF2YXEuQZuDiavq8KEPp6GC/G2shOUy6pqXWeuA/QaDHTUQdulRKd24LGc\nDERDVPJrvhkcNssTwulUWM3aQvJw+QBFCNNNygOi1CfGi09yeXEUqggswevR8jNk\nWKhWXkB1sJjPfczTM20rCxPj/ktqQs/qpVjftYVvdjG3vFRB8c4d0xeeF/azJfmL\nTYbk/gH5O9fq7siJkaAJTdQ715p8V4PJOgXseRdYD9EUNnPwhAZnfDC+w176okg0\n48nMXdTBAgMBAAECggEAOjpO/WCS6Mu6FytT0lZ+FfHuEc3gehlAYthXAyA39bE2\n8FAIrSc/JZmkCYUID/8iOjvN9Y3qxE8YlYEqY3egQTWuRvXR5YedPG24kD+2R5QP\nAR2MzS/GbTSJnasuc6dtCAW/c66Yz9YKJyP1bm+wJxlOKMHPkAWTUtyfra7Iz4U4\nY9mEU6eR7iy0fSCC2nXjwyoEUMuZ4rBCFyZD8etHI172K0rOkJh/LQMXBzrYHfDQ\nfwGqz640ii4HhAA0Yit1XabokhU2ckrbXPgRemG8fwuozK+hOx8kkH+FKM8FX6Wa\nhp0vkP3gRibWoKxWN9SuR3FWxWdLljfKcw8zFLNMJQKBgQD8YHHoAkAPEfXojJT0\n49xiwuYVapgVSf4tKEdS51kArEWZNCSyvUCmCdBCX9besIJJuK4cyAVGvbDQRDDD\nKPz3b2YB7dHbk1JRdXHkppUTIwztiNQNE94+LfHQxPx3maJ1xGkT9OLt0OrTbRc8\n/zFZ0xCNoNayTHmXRwaEg5QUcwKBgQDLP3980+GFZ72yAjSd3F1WrRehemYFfjS5\nEqzr/ktOq/BLRIAnAunzGs0NP1w/G1qu0aA28/yXdY6tKztXNjwggKO1mzoRgbFb\njMI8cU+w2IUiN0zAIJ9KeQ7cpzsU7IiWON3tdjPs9WSdM1/pZPbrKdF7sgahgNP1\nS+GfuPEY+wKBgQC89cUzTkQCRJNXG7MHrHe9Jmo5DMdz4SPDUc4dP4R/IX022TjE\n7zgxWVWp7LInqAbVBcavW/+/WJXDSdsstEq7RJgex56CBcrznLi61xL08iBi1TjX\n1dFnwuS0SFkzfz+JZ5a5T3h9URgRVzO4AuZDd+mD8THu6516a75wh0ffCwKBgFWl\nDDOtlPqCHI1GIKXklfBQQATrbtIhvFXAaN2I6nLcQQV2eAn4UF0Ajidm65gsDqpb\n6wc9CNNJ1jViYj79u5h2nIWKQ43c+L97MN4HYW1Dz9X7N3w+QuE+4eRZE6xdf7DN\nhbbqeDcBsMQNQf03blTp6jwVaHXls2tJ7mk/pVjBAoGBANIUSwzZ759rRpig/+j+\nqhv4Ny97AV1e8PURYpMdQbsKWEDAJG286KL1vC7w3OGqPYqFwpHOdw3bFZI2A/FE\nstDNdFVFkT3OtwHltjrC8590wC6PISBXP42lx3PrY3AwnLvYHtKgERsIxofpinRs\n9CI8XNVF38mqbVsoTqDp36QT\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-1f5na@eco-wallet-6ecf7.iam.gserviceaccount.com",
+  "client_id": "109057915522487104084",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1f5na%40eco-wallet-6ecf7.iam.gserviceaccount.com"
+}

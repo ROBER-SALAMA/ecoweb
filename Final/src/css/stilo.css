@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+body{
+    margin-top: 0;
+    background: linear-gradient(-45deg, #65dfe4, #056334, #22306e, #1c6799, #054705, #218056); 
+     background-size: 400% 400%;
+    animation: gradient 15s ease infinite; 
+    /* background-color: #218056;  */
+}
+
+@keyframes gradient{
+    /* to{
+        filter: hue-rotate(1turn);
+    } */
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+#particles-js{
+    /* background-color: rgb(5, 25, 44); */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+     /* background-color: #0D7003;  */
+    padding: 15px;
+    font-size: 20px;
+    color: #bcddd2;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar button{
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* #toggler, 
+.navbar label{
+    display: none;
+} */
+
+/* @media screen and
+(max-widt: 600px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked~.menu{
+        max-height: 100%;
+    }
+} */
+
+header{
+    width: 60%;
+    padding: 30px;
+    margin-top: 90px;
+}
+
+header h1{
+    margin: -5px;
+    font-size: 94px;
+    font-family: 'Nunito',sans-serif;
+    color: #fff;
+    line-height: 90px;
+}
+
+
+header p{
+    font-size: 24px;
+    color: #bddfd1;
+    margin-top: 30px;
+}
+
+.cont-img{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 165px;
+    margin-right: 100px;
+}
+
+.cont-img img{
+    max-width: 80%;
+    max-height: auto;
+}
+
+@media (max-width: 1100px) {
+    .cont-img{
+        margin-right: 0;
+    }
+    .cont-img img{
+        height: 400px;
+        width: 400px;
+    }
+    ul{
+        width: 100%;
+    }
+    header h1 br{
+        display: none;
+    }
+    header h1{
+        text-align: start;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cont-img{
+        display: none;
+    }
+    header h1{
+        font-size: 85px;
+        line-height: 70px;
+    }
+    header p{
+        font-size: 25px;
+    }
+  }
+
+.container .download-button{
+   top: 82%;
+   left: 38px;
+}
+.download-button {
+    cursor: pointer;
+    position: absolute;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+   }
+   
+   .download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #242a35;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   
+   .download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #01e056;
+    border: solid 1px #01e0572d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover .download {
+    transform: translateY(100%)
+   }
+   
+   .download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+   }
+   
+   @keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+   }
+
+.loggin-button {
+    background-color: #21d321;
+}
+
+.signup-button {
+    background-color: #21d321;
+}
+
+.infodevs {
+    background-color: #21d321;
+}
+
+.map-button {
+    background-color: #21d321;
+}

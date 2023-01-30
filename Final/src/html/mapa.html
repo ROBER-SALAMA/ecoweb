@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/mapaa.css" />
+    <title>mapa</title>
+  </head>
+  <body>
+   <header> 
+    <nav class="navbar">
+        <a href="#" class="logo">MBR Encuentra un ecobot</a>
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><i class="ri-menu-line"></i></label>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#">Acerca de nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+   </header>
+
+    <section>
+      <div class="barra-vertical">
+       <div class="cont-secundario">
+        <img src="../img/logo.png" alt="MBR">
+            <div class="contenedor">
+             <h2>Ecowallet</h2>
+             <div class="contenedor2">
+                <ul>
+                    <li>Ecowallet es una billetera electronica 
+                        desarrollada por MBR, en ella prodras ganar recompenas
+                        como los tokens que los recibiras despues de reciclar 
+                        una botella o lata 
+                    </li>
+                 </ul>
+             </div>
+            </div>
+       </div>
+              <hr/>
+       <div class="cont-secundario">
+        <img src="../img/My project-1.png" class="ecobot" alt="MBR">
+            <div class="contenedor">
+              <h2>Ecobot</h2>
+             <div class="contenedor2">
+                <ul>
+                    <li>
+                        El ecobot es una maquina donde prodras
+                        introducir una botella o lata para ganar 
+                        reconpensas en tu ecowallet, fue creado por MBR anteriormente
+                        se llamaba bolado box posteriormente se le cambio el nombre a
+                        ecobot
+                    </li>
+                 </ul>
+             </div>
+            </div>
+       </div>
+       <hr>
+       <div class="cont-secundario">
+            <div class="contenedor">
+             <div class="contenedor3">
+              <button id="boton-map"> salir
+              </button>
+             </div>
+            </div>
+       </div>
+       
+       
+      </div>
+    </section>  
+    
+      <div class="mapa">
+        <div class="mapa2">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.7800413711852!2d-89.71945148585715!3d13.731762701458772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62b81f06dddfe1%3A0x46f4d7907d01c68f!2sInstituto%20Nacional%20de%20Sonzacate%20(INSO)!5e0!3m2!1ses-419!2ssv!4v1666114008262!5m2!1ses-419!2ssv"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe> 
+        </div>
+      </div>
+
+      <script src="../routers/btn_mapa.js"></script>
+  </body>
+</html>
